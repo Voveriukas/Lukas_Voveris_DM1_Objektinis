@@ -1,6 +1,6 @@
 # 1-oji užduotis
 
-## v0.1
+## v0.11
 
 #### Programos veikimo principas
 
