@@ -18,7 +18,7 @@ Programoje yra integruotos "apsaugos" ir limitacijos dėl vartotojo duomenų įv
 
 - Vartotojo atsakymas į klausimą ar šis nori egzaminų ir namų darbų rezultatus vesti ranka ar sugeneruoti atsitiktinai gali būti tik **T** arba **N** įvedus bet kokią kitokią reikšmę, ši bus atmesta ir vartotojas bus paprašomas reikšmę vesti iš naujo. Logikos kodas:
 ```cpp
-while (yesOrNo != 'T' && yesOrNo != 'N') {
+ while (yesOrNo != 'T' && yesOrNo != 'N' && yesOrNo !=  't' && yesOrNo != 'n') {
     cout << "Ivedama reiksme turi buti arba T arba N" << endl;
     cout << "Bandykite is naujo: " << endl;
     cin.clear();
