@@ -6,10 +6,11 @@
 
 ```diff
 + Vartotojas yra paprašomas įvesti studento vardą bei pavardę.
-+ Vartotojo yra paklausiama ar jis rezultatus nori vesti ranka ar juos sugeneruoti atsitiktinai.
++ Vartotojo yra paklausiama ar jis studentų galutinį rezultatą nori sužinoto skaičiuotą su mediana ar vidurkiu.
++ Vartotojo paklausiama ar jis nori duomenis vesti iš failo ar ranka.
++ Pasirinkus vedima ranka, vartotojo yra paklausiama ar jis rezultatus nori vesti ranka ar juos sugeneruoti atsitiktinai.
 + Priklausomai nuo pasirinkimo, jo yra paprašoma įvesti egzamino ir namų darbų rezultatus, arba jie sugeneruojami atsitiktinai.
-+ Vartotojo yra paklausiama ar jis studento galutinį rezultatą nori sužinoto skaičiuotą su mediana ar vidurkiu.
-+ Vartotojui yra išvedama lentelė su jo vardu ir pavarde, bei galutiniu rezultatu skaičiuotu su mediana arba vidurkiu.
++ Vartotojui yra išvedama lentelė su studentų vardais ir pavardėmis, bei galutiniu rezultatu skaičiuotu su mediana arba vidurkiu.
 ```
 
 #### Limitacijos
@@ -54,5 +55,4 @@ Kompiuterio vidinis laikrodis yra naudojamas, `rand()` fukcijos sėklos (seed) p
 
 #### Failai
 
-1-oji užduoties v0,1 versijos atšakoje (branch) yra prisegami du `.cpp` failai: `objektinis_array.cpp` ir `objektinis_vector.cpp`.
-Šiuose failuose programos logika nekinta, jie skiriasi tik tuom, kad `objektinis_array.cpp` namų darbų įverčiams laikyti yra naudojamas **dinaminis masyvas**, o `objektinis_vector.cpp` tiems patiems įverčiams laikyti yra naudojamas **vektorius**.
+Vartotojui duodamas pasirinkimas įvesti duomenis iš failo arba vesti ranka. Pasirinkus vedimą iš failo, duomenys yra vedami iš failo kursiokai.txt
