@@ -1,5 +1,20 @@
 # 1-oji užduotis
 
+## v0.3
+
+#### Programos veikimo principo papildymas
+
+```diff
++ Vartotojui pasirenkant duomenų vedimą iš failo sugeneruojami 5 duomenų failai ir skaitoma iš jų.
++ Studentai suskirstomi į vargšelius ir galvočius, tų kurių galutinis balas mažesnis už 5 ir kurių mažesnis.
++ Šie studentai išvedami į atskirus failus.
+```
+
+#### Failai
+
+Sugeneruojami penki atsitiktiniai studentų sąrašų failai, sudaryti iš: 1 000, 10 000, 100 000, 1 000 000, 10 000 000 įrašų. Failai pavadinami pagal šį šabloną - `studentai_[failoDydis].txt`
+Nuskaityti ir surušiuoti iš šių failų yra įrašomi į 2 naujus kiekvienam sąrašui (iš viso 10 skirtingų failų), pavadinti pagal šį šabloną: `galvociai_[failoDydis].txt` ir `nuskriaustieji_[failoDydis].txt`
+
 ## v0.2
 
 #### Programos veikimo principo papildymas
