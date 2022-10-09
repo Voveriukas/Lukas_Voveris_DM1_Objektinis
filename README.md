@@ -31,7 +31,7 @@ Programoje yra integruotos "apsaugos" ir limitacijos dėl vartotojo duomenų įv
 
 - Vartotojo atsakymas į klausimą ar šis nori egzaminų ir namų darbų rezultatus vesti ranka ar sugeneruoti atsitiktinai gali būti tik **T** arba **N** įvedus bet kokią kitokią reikšmę, ši bus atmesta ir vartotojas bus paprašomas reikšmę vesti iš naujo. Logikos kodas:
 ```cpp
-while (yesOrNo != 'T' && yesOrNo != 'N') {
+ while (yesOrNo != 'T' && yesOrNo != 'N' && yesOrNo !=  't' && yesOrNo != 'n') {
     cout << "Ivedama reiksme turi buti arba T arba N" << endl;
     cout << "Bandykite is naujo: " << endl;
     cin.clear();
@@ -69,4 +69,3 @@ Kompiuterio vidinis laikrodis yra naudojamas, `rand()` fukcijos sėklos (seed) p
 
 1-oji užduoties v0,1 versijos atšakoje (branch) yra prisegami du `.cpp` failai: `objektinis_array.cpp` ir `objektinis_vector.cpp`.
 Šiuose failuose programos logika nekinta, jie skiriasi tik tuom, kad `objektinis_array.cpp` namų darbų įverčiams laikyti yra naudojamas **dinaminis masyvas**, o `objektinis_vector.cpp` tiems patiems įverčiams laikyti yra naudojamas **vektorius**.
-
