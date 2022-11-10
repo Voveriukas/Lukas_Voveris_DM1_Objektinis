@@ -1,5 +1,29 @@
 # 1-oji užduotis
 
+## v0.4
+
+#### Programos veikimo principo papildymas:
+```diff
++ Vykdant skaitimą iš failo, vykdomas palyginimas tarp realizacijų naudojant list ir vector konteinerius.
+```
+
+#### Palyginimo rezultatai:
+
+##Kompiuterio parametrai:
+```
+CPU - Intel Core i5-8300H 2.30GHz
+RAM - 16 Gb
+HDD - ST1000LM035-1RK172 1T talpos
+```
+
+##Testavimai
+
+![image](https://user-images.githubusercontent.com/77852914/198313804-50589df7-9562-4421-959a-7357cfab97ce.png)
+![image](https://user-images.githubusercontent.com/77852914/198313695-c51f3a92-6c87-487d-bc80-d5cb3d6c91f0.png)
+![image](https://user-images.githubusercontent.com/77852914/198313575-1a17b2f6-bd4d-4dd9-9993-e91b8a06607f.png)
+![image](https://user-images.githubusercontent.com/77852914/198313402-cd3a39aa-163c-4528-bb08-5f2eb853ecf6.png)
+![image](https://user-images.githubusercontent.com/77852914/198320093-1a071bed-634c-470c-85e4-b56e9cd356f0.png)
+
 ## v0.3
 
 #### Programos veikimo principo papildymas
