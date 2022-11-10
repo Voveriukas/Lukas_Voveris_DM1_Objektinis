@@ -1,5 +1,26 @@
 # 1-oji užduotis
 
+## v0.1
+
+#### Programos veikimo principo pakeitimai:
+```diff
++ Pridėti 2 strategijų (vector ir list konteineriams) palyginimas.
+- Programa nelygina vector ir list konteinerių failų kūrimo greičių
+```
+
+#### Strategijos
+**1 strategija:** Bendro studentai konteinerio (vector ir list tipų) skaidymas (rūšiavimas) į du naujus to paties tipo konteinerius: "nuskriaustųjų" ir "galvočių". Tokiu būdu tas pats studentas yra dvejuose konteineriuose: bendrame studentai ir viename iš suskaidytų (vargšiukai arba kietiakai).
+**2 strategija:** Bendro studentų konteinerio (vector ir list) skaidymas (rūšiavimas) panaudojant tik vieną naują konteinerį: "nuskriaustieji". Tokiu būdu, jei studentas yra nuskriaustasis, jį turime įkelti į naująjį "nuskriaustųjų" konteinerį ir ištrinti iš bendro studentai konteinerio. Po šio žingsnio studentai konteineryje liks vien tik galvočiai.
+
+Palyginimų rezultatai:
+
+![image](https://user-images.githubusercontent.com/77852914/201079829-7079fa22-83ac-479f-89e7-cd9ad935d771.png)
+![image](https://user-images.githubusercontent.com/77852914/201079908-04ae851b-6bb9-49b8-8412-7575f8a7751c.png)
+![image](https://user-images.githubusercontent.com/77852914/201080439-e90b5280-30b3-4885-b56f-b853aa5dc603.png)
+![image](https://user-images.githubusercontent.com/77852914/201100008-09e908e8-0ef4-46c3-87a4-f716e41407fc.png)
+![image](https://user-images.githubusercontent.com/77852914/201102656-f1bb77e7-8466-4234-97dd-539df7569337.png)
+
+
 ## v0.4
 
 #### Programos veikimo principo papildymas:
