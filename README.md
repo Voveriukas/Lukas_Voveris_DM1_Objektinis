@@ -1,8 +1,25 @@
 # 1-oji užduotis
 
+## Programos veikimo instrukcija
+
+```yaml
+Vartotojo yra paklausiama ar jis studentų galutiniu rezultatus nori sužinoto skaičiuotą su mediana ar vidurkiu;
+Vartotojo suteikiama galimybė rezultatus vesti ranka ar juos skaityti iš failo;
+  Pasirinkus vedimą ranka:
+    Vartotojo paprašoma įvesti pirmojo studento vardą ir pavardę;
+    Vartotojo paprašoma pasirinkti, ar šis namų darbų ir egzamino rezultatus ves ranka ar nori sugeneruoti;
+    Suvedus / sugeneravus rezultatus paklausiama, ar vartotojas norės įvesti dar vieną studentą;
+    Baigus vesti studentus, išvedama rezultatų lentelė;
+  Pasirinkus atsitiktinį generavimą:
+    Vartotojo yra paklausiama kelių studentų duomenų failą šis nori perskaityti;
+    Vartotojo paklausiama ar šis nori sugeneruoti naują studentų failą;
+      Pasirinkus generavimą, sugeneruojamas naujas studentų failas;
+    Išvedama lentelė su vector ir list konteinerių rusiavimo į dvi grupes greičiai, 2 skiringom strategijom
+```
+
 ## v0.1
 
-#### Programos veikimo principo pakeitimai:
+#### Programos veikimo principo pakeitimai v0.1 versijoje:
 ```diff
 + Pridėti 2 strategijų (vector ir list konteineriams) palyginimas.
 - Programa nelygina vector ir list konteinerių failų kūrimo greičių
